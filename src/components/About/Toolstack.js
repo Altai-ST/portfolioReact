@@ -5,8 +5,10 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiIntellijidea,
 } from "react-icons/si";
+
+import { DiPhotoshop } from "react-icons/di"
 
 function Toolstack() {
   return (
@@ -21,10 +23,10 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <DiPhotoshop />
       </Col>
     </Row>
   );
